@@ -16,6 +16,23 @@
 
         <h3>Resources</h3>
 
+        <p>A fairly thorough, though not super-detailed, discussion
+          of what the JVM "looks like" is <a href="https://anturis.com/blog/java-virtual-machine-the-essential-guide/">here</a>.</p>
+
+        <p>If you're interested in how garbage collection works, here
+         is a <a href="http://www.oracle.com/technetwork/java/javase/memorymanagement-whitepaper-150215.pdf">fairly readable description from Sun/Oracle</a>. It's about 10 years
+       old, so it probably doesn't capture exactly how things work in
+          the JVMs we're using, but it gives you a sense.</p>
+
+        <p>The question of what references "are" has different
+          answers depending on the
+          JVM. <a href="http://stackoverflow.com/questions/1574009/how-is-reference-to-java-object-is-implemented">This</a>
+          StackOverflow discussion from 2009 sketches some
+          possibilities&mdash; in general, references
+          are <em>mostly</em> like addresses, but there is usually
+          some extra secret sauce in there to (for example) make
+          garbage collection more efficient.</p>
+        
         <h3>(Text)books</h3>
 
         <p>
